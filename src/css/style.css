@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    overflow-x: hidden; 
+    width: 100%; 
+}
+.titles{
+    display: flex;
+    font-size: 33px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.header{
+    width: 100%;
+    height: 160px;
+    background-color: #2C2C2C;
+}
+.title{
+    color: orange;
+    margin-right: 10px;
+}
+.secondTitle{
+    color: white;
+}
+.info{
+    margin-left: 240px;
+}
+.slogan{
+    left: 70px;
+    top: 20px;
+    color: white;
+    position: relative;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap; 
+}
+nav ul li{
+    list-style: none;
+   padding-right: 10px;
+    padding-bottom: 40px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.1em;
+    background-color:rgb(121, 192, 15);
+    border: 1px solid rgb(121, 192, 15);
+    border-bottom-left-radius: 0.5em;
+    border-width:8px ;
+    font-weight:bolder;
+    color: aliceblue;
+}
+nav ul li a.active{
+    color: rgb(208, 85, 85);
+  } 
+  #contact{
+    background-color:rgb(221, 109, 69);
+    border: 1px solid rgb(221, 109, 69);
+    border-width:8px ;
+    border-bottom-left-radius: 0.5em;
+}
+.contact{
+    display: flex;
+}
+.elements{
+    margin-left: 240px;
+    margin-right: 110px;
+}
+.sidebar{
+    position: relative;
+    right: 40px;
+    width: 500px;
+}
+input{
+    width: 500px;
+    height: 30px;
+}
+.message{
+    height: 200px;
+    margin-bottom: 20px;
+}
+h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.email{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.my{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.submit{
+    position: relative;
+    top: 135px;
+    right: 510px;
+    background-color: lightgrey;
+
+}
+    .footerone{
+        height: 300px;
+        width: 100%;
+        background-color:  #001300;
+        color: white;
+        margin-top: 20px;
+    }
+    .subfooter{
+        margin-left: 240px;
+        margin-right: 150px; 
+        display: flex;
+       position: relative;
+       bottom: 35px;
+    }
+    .copy {
+        display: flex;
+        margin-left: 240px;
+    }
+    .links {
+        display: flex;
+        margin-left: 1000px;
+        color: white;
+        position: relative;
+        bottom: 20px;
+    }
+    a{
+        color: #A0D600;
+    }
+    .last{
+        background-color: black;
+        color: white;
+        height: 50px;
+    }
+    .owner{
+        margin-top: 20px;
+    }
+    .Gallery{
+        display: flex;
+    }
+    .Image{
+        margin-top: 15px;
+    }
+    .first{
+        margin-top: 20px;
+    }
+    .middleimage{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .templet3{
+        margin-top: 20px;
+        width: 1000px;
+    }
+    
+    .aboutimage{
+        height: 50px;
+    }
+     .beforelink{
+        position: relative;
+        bottom: 60px;
+        left: 70px;
+     }
+     .secondparagraph{
+        position: relative;
+        bottom: 60px;
+     }
+     .abouts{
+        margin-left: 20px;
+        margin-right: 100px;
+        margin-top: 20px;
+        
+    }
+    .aboutpage{
+        display: flex;
+    }
+    h2{
+        color: #A0D600;
+    }
+    .text{
+        margin-left: 240px;
+        margin-right: 150px;
+    }
+    .phone{
+        margin-top: 20px;
+    }
+    ul{
+        list-style-type: none;
+    }
+    li a{
+        text-decoration: none;
+        color: white;
+        list-style-type: none;
+    }
+    li a:hover {
+        color: #A0D600;          
+    }
+    .middleelement{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
